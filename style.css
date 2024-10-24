@@ -1,0 +1,203 @@
+body {
+  background-color: #F5F4F0;
+  margin: 0;
+  counter-reset: section;
+  max-height: 3279px;
+  display: flex;
+  justify-content: center;
+  padding-top: 88px;
+  padding-bottom: 137px;
+}
+
+#page {
+  width: 1120px;
+  height: 3054px;
+}
+
+#destinos {
+  margin: 64px 0px;
+
+}
+
+#haedong {
+  margin-top: 0%;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic;
+  text-align: center;
+  color: #333333;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.headline1 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  color: #e1624f;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.headline2 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  color: #e1624f;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 0px;
+}
+
+img {
+  border-radius: 28px;
+  width: 100%;
+}
+
+.foto-alvo1 {
+  border-radius: 28px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.foto-alvo2 {
+  border-radius: 28px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+.foto-alvo3 {
+  border-radius: 28px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+:root {
+  color: #1B1B1B;
+}
+
+main {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 4px;
+  padding-left: 8px;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #333333;
+  margin: 0px;
+}
+
+.divider1 {
+  width: 100%;
+  height: 1px;
+  margin-top: 40px;
+  margin-bottom: 64px;
+  background-color: #d9d9d9;
+}
+
+.divider2 {
+  width: 100%;
+  height: 1px;
+  margin: 40px 0;
+  background-color: #d9d9d9;
+}
+
+#yonggungsa {
+  margin-bottom: 40px;
+}
+
+.titulo::before {
+  counter-increment: section;
+  content: counter(section) ". ";
+  font-weight: bold;
+  margin-right: 0px;
+}
+
+.lista-colorida {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.casais {
+  color: #591b98;
+  font-weight: bold;
+}
+
+.familias {
+  color: #e5245e;
+  font-weight: bold;
+}
+
+.orcamento {
+  color: #e95e10;
+  font-weight: bold;
+}
+
+.lista {
+  font-weight: bold;
+  margin-bottom: 0cm;
+}
+
+.historia {
+  color: #0c51a7;
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+.rodape {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 65px;
+}
+
+footer {
+  font-family: "Alice", serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer img {
+  object-fit: cover;
+  height: 16px;
+  width: 16px;
+  vertical-align: center;
+}
